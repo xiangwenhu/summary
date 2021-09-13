@@ -2,6 +2,9 @@
 
 ### 方案
 
+* [事件监听，预警和统计](https://github.com/xiangwenhu/evm)
+按需监听事件处理程序，并对重复添加进行预警，并统计你关心事件处理程序。
+
 * [前端文件系统](https://github.com/xiangwenhu/FileSystem)     
 基于indexedDB实现的前端文件系统，用于存储大型文件并且方便查看。 比如存储：视频文件，pdf文件，音频文件等等
 演示地址： https://xiangwenhu.github.io/FileSystem/demo/
