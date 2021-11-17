@@ -5,14 +5,24 @@
 ### 系统
 
 * 活动系统 - 蕤
+系统架构图
+![](./images/tasse.png)
 
 
 * 实时日志系统 - 獬
+  由前端日志库，消息中转服务，监控后台组成的点对点日志监控系统。
 
 ### 方案
 
 * [事件监听，预警和统计](https://github.com/xiangwenhu/evm)      
 按需监听事件处理程序，并对重复添加进行预警，并统计你关心事件处理程序。
+
+
+* [异步通讯通用方案](https://github.com/xiangwenhu/asyncMessager)   
+异步回调转Promise通用方案。支持EventEmitter, MQTT, socket.io, iframe， webview等等场景。
+
+
+
 
 * [前端文件系统](https://github.com/xiangwenhu/FileSystem)     
 基于indexedDB实现的前端文件系统，用于存储大型文件并且方便查看。 比如存储：视频文件，pdf文件，音频文件等等
