@@ -52,7 +52,9 @@ Phaser3 H5游戏项目模板。
 问属性路径深浅，顺序遍历，倒叙遍历都支持，高效合并数据方案
 
 * [rloader](https://github.com/xiangwenhu/rloader)   
-基于IndexedDB缓存的轻量级资源加载器。
+基于IndexedDB缓存的轻量级资源加载器。   
+
+   演示地址：[r-loader演示](https://xiangwenhu.github.io/rloader)
 
 * [circle-lottery](https://github.com/xiangwenhu/circle-lottery)   
 该库适用指针转动或者转盘转动的转盘抽奖。不负责UI布局，仅仅负责转动效果控制。
