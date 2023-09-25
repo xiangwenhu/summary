@@ -1,9 +1,9 @@
 ## 关于我
-
+  没去过大厂，不想做咸鱼。一点喜欢编程，更喜欢的没有。
 
 ### 系统
 
-* 活动系统 - 蕤   
+* 活动系统 - 蕤  
 系统架构图
 ![](./images/tasse.png)
 
@@ -13,16 +13,16 @@
 
 ### 方案
 
-* [事件注册监听，预警和统计](https://github.com/xiangwenhu/evm)      
-事件监听内存泄漏排查利器！   
+* [petal-service](https://github.com/xiangwenhu/petal-service)
+基于装饰器的服务框架，开箱即用，支持扩展，服务编写利器，前后端均支持。
+* [asyncMessager](https://github.com/xiangwenhu/asyncMessager)   
+异步通讯通用方案，异步回调转Promise通用方案。支持EventEmitter, MQTT, socket.io, iframe， webview等等场景。
+* [evm](https://github.com/xiangwenhu/evm)      
+事件注册监听，预警和统计， 事件监听内存泄漏排查利器！   
 按需监听事件处理程序，并对重复添加进行预警，并统计你关心事件处理程序。
 
-
-* [异步通讯通用方案](https://github.com/xiangwenhu/asyncMessager)   
-异步回调转Promise通用方案。支持EventEmitter, MQTT, socket.io, iframe， webview等等场景。
-
-
-
+* [cookie-manager](https://github.com/xiangwenhu/cookie-manager)
+  浏览器插件: 用户切换不是问题，保存用户cookie，随意切换，测试和\*\*好帮手。
 
 * [前端文件系统](https://github.com/xiangwenhu/FileSystem)     
 基于indexedDB实现的前端文件系统，用于存储大型文件并且方便查看。 比如存储：视频文件，pdf文件，音频文件等等
@@ -76,8 +76,6 @@ Phaser3 H5游戏项目模板。
 纯原生JS，约500行代码的简单小游戏。
 * [ShowYourCode](https://github.com/xiangwenhu/ShowYourCode)    
 手写ES函数， 手写ES库。
-* [vs-vs](https://github.com/xiangwenhu/vs-vs)   
-各种方法，对象之间的区别。
 
 
 ### 博客
