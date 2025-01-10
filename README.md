@@ -4,23 +4,34 @@
 ### 系统
 
 * 活动系统 - 蕤  
-系统架构图
-![](./images/tasse.png)
+系统架构图   
+![](./assets/tasse.png)
+
+* [旅行者](https://github.com/xiangwenhu/traveler)    
+  体验地址：http://8.140.247.208/
+  
+  动画效果   
+![](./assets/travel.gif)
 
 
-* 实时日志系统 - 獬   
-  由前端日志库，消息中转服务，监控后台组成的点对点日志监控系统。
-
-* 基于阿里云的云剪辑
-* 视频内容分发系统
 
 ### 方案
 
-* [petal-service](https://github.com/xiangwenhu/petal-service)
+* [petal-service](https://github.com/xiangwenhu/petal-service)    
 基于装饰器的服务框架，开箱即用，支持扩展，服务编写利器，前后端均支持。
+
+![](https://github.com/xiangwenhu/petal-service/blob/master/docs/petal-service-design-v2.png?raw=true);
+
 * [asyncMessager](https://github.com/xiangwenhu/asyncMessager)   
 异步通讯通用方案，异步回调转Promise通用方案。支持EventEmitter, MQTT, socket.io, iframe， webview等等场景。
-* [evm](https://github.com/xiangwenhu/evm)      
+
+![](https://github.com/xiangwenhu/asyncMessager/blob/master/docs/images/process.png?raw=true)
+
+* [sandcastle](https://github.com/xiangwenhu/sandcastle)      
+沙塔。基于配置的流程控制和爬网引擎。
+
+
+* [evm](https://github.com/xiangwenhu/evm)    
 事件注册监听，预警和统计， 事件监听内存泄漏排查利器！   
 按需监听事件处理程序，并对重复添加进行预警，并统计你关心事件处理程序。
 
@@ -34,8 +45,7 @@
 采用分层分片设计，把动画作用于一个片上而不是具体每个弹幕上，大幅提高性能，1200+弹幕， FPS稳定在 50+。
 演示地址： https://xiangwenhu.github.io/danmu/
 
-* [sandcastle](https://github.com/xiangwenhu/sandcastle)      
-沙塔。基于配置的流程控制和爬网引擎。
+
 
 * [class-error-catch](https://github.com/xiangwenhu/class-error-catch)   
 基于 decorator 的错误捕捉。
