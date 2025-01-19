@@ -73,7 +73,7 @@
 
 * [danmaku](https://github.com/xiangwenhu/danmaku)
   * 起因：直播业务，弹幕多了，明显感觉到卡顿。
-  * 目标：支持多种速度，多种样式的的弹幕。
+  * 目标：提高帧率，降低消耗，同时支持多种速度，多种样式的的弹幕。
   * 演示：https://xiangwenhu.github.io/danmu/   
   * 描述：采用 **层** ， **片** ，**轨道** 三层设计，把动画作用于一个片上而不是具体每个弹幕上，大幅提高性能，1200+弹幕， FPS稳定在 50+。
 
@@ -90,22 +90,22 @@
   * 描述：异步单例。适用于同步单例。
 
 * [nextGenerator](https://github.com/xiangwenhu/nextGenerator)   
-  * 起因：倒计时组件
-  * 目标：
+  * 起因：计时器，比如采用setTimeout实现的倒计时，每次使用setTimeout计划下一次，不舒坦。
+  * 目标：参考express中间件的nex用法。实现调用next进下一个计时周期。
   * 描述：面向next编程思想，封装下一次的调用逻辑，比较经典的场景就是setTimeout,requestAnimationFrame。调用next即进入下一个周期。
 
 
 * [arrayMerge](https://github.com/xiangwenhu/arrayMerge)   
-  * 起因:
-  * 目标
-  * 描述：问属性路径深浅，顺序遍历，倒叙遍历都支持，高效合并数据方案
+  * 起因: 服务端丢给前端2份数据，需要前端根据某种条件进行数据合并。离谱，问就是历史问题，改动成本大。
+  * 目标：通用数组合并，高效，适用性强。
+  * 描述：不问属性路径深浅，顺序遍历，倒叙遍历都支持，高效合并数据方案。
 
 
 
 * [circle-lottery](https://github.com/xiangwenhu/circle-lottery)   
   * 起因：业务上做转盘抽奖，有的转动指针，有的转动转盘，样式也不一样。
   * 目标：转盘抽奖逻辑与UI分离， 逻辑部分只负责计算转动的角度处理。
-  * 演示： https://xiangwenhu.github.io/circle-lottery/?rtype=1
+  * 演示：https://xiangwenhu.github.io/circle-lottery/?rtype=1
   * 描述：该库适用指针转动或者转盘转动的转盘抽奖。不负责UI布局，仅仅负责转动效果控制。
   * 动画效果：     
   ![](./assets/images/lottery.gif)
@@ -116,21 +116,30 @@
 ## 工具
 
 * [cookie-manager](https://github.com/xiangwenhu/cookie-manager)
-  浏览器插件: 用户切换不是问题，保存用户cookie，随意切换，测试和\*\*好帮手。
+  * 起因：业务方说需要给几个大主播发短视频，可是浏览器只能登录一个用户，切换后，再需要发送视频，还需登录，有办法解决不。
+  * 目标：域名级多用户管理，一键切换。支持导入导出。
+  * 描述：浏览器插件: 用户切换不是问题，保存用户cookie，随意切换，测试和\*\*好帮手。
 
 * [swagger-to-petal-service](https://github.com/xiangwenhu/swagger-to-petal-service)
-swagger转为typescript编写的的服务代码。
+  * 起因：公司的部分服务文档都是通过swagger发布的，前端服务请求，需要手写类型typescript和请求逻辑，麻烦。
+  * 目标：根据文档地址自动生成服务请求代码，更关注业务。
+  * 描述：swagger转为typescript编写的的服务代码。升级愿景转为基于[petal-service](https://github.com/xiangwenhu/petal-service)框架的服务请求。  
 
 * [yapi-to-petal-service](https://github.com/xiangwenhu/yapi-to-petal-service)
-yapi转为typescript编写的的服务代码。
+  * 起因：公司的部分服务文档都是通过yapi发布的，前端服务请求，需要手写类型typescript和请求逻辑，麻烦。
+  * 目标：根据文档地址自动生成服务请求代码，更关注业务。
+  * 描述：yapi转为typescript编写的的服务代码。升级愿景转为基于[petal-service](https://github.com/xiangwenhu/petal-service)框架的服务请求。  
+
 
 * [m-tinypng](https://github.com/xiangwenhu/m-tinypng)   
-基于 [https://tinypng.com/](https://tinypng.com/)的高效图片压缩工具，突破上限。
+  * 起因：活动系统 - 蕤 支持直接把蓝湖图片同步到本地项目，为了获取更好的图片压缩质量，采用了 tinypng，但似乎其有数量限制。
+  * 目标：无限制的使用 tinypng压缩服务。
+  * 描述：基于 [https://tinypng.com/](https://tinypng.com/)的高效图片压缩工具，突破上限。
 
 ## 博客
 掘金 ： [云的世界](https://juejin.cn/user/131597122679661)
 
-[掘力计划月度榜单｜2021年10月Top作者榜公布](https://juejin.cn/post/6992851882947379214) 前端组第19名    
+[掘力计划月度榜单｜2021年10月Top作者榜公布](https://juejin.cn/post/7028026854669811749) 前端组第19名    
 [掘力计划月度榜单｜2021年8月Top作者榜公布](https://juejin.cn/post/7006255145054896158)  前端第1名    
 [掘力计划月度榜单｜2021年7月Top作者榜公布](https://juejin.cn/post/6992851882947379214) 前端组第6名   
 [掘力计划月度榜单｜2021年6月Top作者榜公布](https://juejin.cn/post/6982444975111798798) 前端组第7名   
