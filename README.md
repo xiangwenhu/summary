@@ -78,6 +78,13 @@
   * 描述：采用 **层** ， **片** ，**轨道** 三层设计，把动画作用于一个片上而不是具体每个弹幕上，大幅提高性能，1200+弹幕， FPS稳定在 50+。
 
 
+* [count-manager](https://github.com/xiangwenhu/countdownManger)  
+  * 起因：直播业务，活动入口显示倒计时，点击活动入口后也显示倒计时。倒计时组件倒计时的逻辑是组件内部实现的，各自计算各自的，导致了活动内外的倒计时显示不一致。 
+  * 目标：分离计时逻辑，通过key来分组，同样的key具备同样的计时逻辑。通知增长计时，自定义时钟等。
+  * 演示：https://xiangwenhu.github.io/count-manager-demos/
+  * 描述：
+  * 动态效果：
+   ![alt text](countManager.gif)
 
 * [class-error-catch](https://github.com/xiangwenhu/class-error-catch)   
   * 起因：那时的react版本，用户点击等这些事件的错误不会被React的componentDidCatch捕获。 
