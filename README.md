@@ -90,14 +90,14 @@
   * 描述：异步单例。适用于同步单例。
 
 * [nextGenerator](https://github.com/xiangwenhu/nextGenerator)   
-  * 起因：倒计时组件
-  * 目标：
+  * 起因：多次执行setTimeout或者requestAnimationFrame等，都需要编写逻辑。
+  * 目标：简化多次调用的逻辑。
   * 描述：面向next编程思想，封装下一次的调用逻辑，比较经典的场景就是setTimeout,requestAnimationFrame。调用next即进入下一个周期。
 
 
 * [arrayMerge](https://github.com/xiangwenhu/arrayMerge)   
-  * 起因:
-  * 目标
+  * 起因: 业务方给的数据，需要前端通过某个键或者关系组合数据，问就是历史原因。
+  * 目标：支持通过某些属性关系合并数组。
   * 描述：问属性路径深浅，顺序遍历，倒叙遍历都支持，高效合并数据方案
 
 
@@ -117,6 +117,13 @@
 
 * [cookie-manager](https://github.com/xiangwenhu/cookie-manager)
   浏览器插件: 用户切换不是问题，保存用户cookie，随意切换，测试和\*\*好帮手。
+
+
+* [lanhu-image-downloader-ext](https://github.com/xiangwenhu/lanhu-image-downloader-ext)     
+  * 起因：蓝湖多张图片下载，每次下载下来还要解压缩再放到项目里，麻烦。
+  * 演示：
+![](https://github.com/xiangwenhu/lanhu-image-downloader-ext/blob/main/res/lanhu-image-downloader.gif?raw=true)
+  * 描述：从vscode里面通过url或者选择下载设计稿图片，节省人力。
 
 * [swagger-to-petal-service](https://github.com/xiangwenhu/swagger-to-petal-service)
 swagger转为typescript编写的的服务代码。
