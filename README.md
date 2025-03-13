@@ -97,12 +97,17 @@
   * 描述：异步单例。适用于同步单例。
 
 * [nextGenerator](https://github.com/xiangwenhu/nextGenerator)   
+  * 起因：多次执行setTimeout或者requestAnimationFrame等，都需要编写逻辑。
+  * 目标：简化多次调用的逻辑。
   * 起因：计时器，比如采用setTimeout实现的倒计时，每次使用setTimeout计划下一次，不舒坦。
   * 目标：参考express中间件的nex用法。实现调用next进下一个计时周期。
   * 描述：面向next编程思想，封装下一次的调用逻辑，比较经典的场景就是setTimeout,requestAnimationFrame。调用next即进入下一个周期。
 
 
 * [arrayMerge](https://github.com/xiangwenhu/arrayMerge)   
+  * 起因: 业务方给的数据，需要前端通过某个键或者关系组合数据，问就是历史原因。
+  * 目标：支持通过某些属性关系合并数组。
+  * 描述：问属性路径深浅，顺序遍历，倒叙遍历都支持，高效合并数据方案
   * 起因: 服务端丢给前端2份数据，需要前端根据某种条件进行数据合并。离谱，问就是历史问题，改动成本大。
   * 目标：通用数组合并，高效，适用性强。
   * 描述：不问属性路径深浅，顺序遍历，倒叙遍历都支持，高效合并数据方案。
@@ -127,12 +132,12 @@
   * 目标：域名级多用户管理，一键切换。支持导入导出。
   * 描述：浏览器插件: 用户切换不是问题，保存用户cookie，随意切换，测试和\*\*好帮手。
 
+
 * [lanhu-image-downloader-ext](https://github.com/xiangwenhu/lanhu-image-downloader-ext)     
   * 起因：蓝湖多张图片下载，每次下载下来还要解压缩再放到项目里，麻烦。
   * 演示：
-  ![](https://github.com/xiangwenhu/lanhu-image-downloader-ext/blob/main/res/lanhu-image-downloader.gif?raw=true)
+![](https://github.com/xiangwenhu/lanhu-image-downloader-ext/blob/main/res/lanhu-image-downloader.gif?raw=true)
   * 描述：从vscode里面通过url或者选择下载设计稿图片，节省人力。
-
 
 * [swagger-to-petal-service](https://github.com/xiangwenhu/swagger-to-petal-service)
   * 起因：公司的部分服务文档都是通过swagger发布的，前端服务请求，需要手写类型typescript和请求逻辑，麻烦。
