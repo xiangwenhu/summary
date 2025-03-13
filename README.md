@@ -127,6 +127,13 @@
   * 目标：域名级多用户管理，一键切换。支持导入导出。
   * 描述：浏览器插件: 用户切换不是问题，保存用户cookie，随意切换，测试和\*\*好帮手。
 
+* [lanhu-image-downloader-ext](https://github.com/xiangwenhu/lanhu-image-downloader-ext)     
+  * 起因：蓝湖多张图片下载，每次下载下来还要解压缩再放到项目里，麻烦。
+  * 演示：
+  ![](https://github.com/xiangwenhu/lanhu-image-downloader-ext/blob/main/res/lanhu-image-downloader.gif?raw=true)
+  * 描述：从vscode里面通过url或者选择下载设计稿图片，节省人力。
+
+
 * [swagger-to-petal-service](https://github.com/xiangwenhu/swagger-to-petal-service)
   * 起因：公司的部分服务文档都是通过swagger发布的，前端服务请求，需要手写类型typescript和请求逻辑，麻烦。
   * 目标：根据文档地址自动生成服务请求代码，更关注业务。
